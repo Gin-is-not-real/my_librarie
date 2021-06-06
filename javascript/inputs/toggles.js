@@ -1,13 +1,10 @@
 /*
-    add this function on a addEventListener callback
-    if you leave the last param void, the element className will added or remove.
-    else, the element className will switch between class1 and class2. 
+    add this function on a addEventListener function
+    - if you leave the last param void, the element className will added or remove.
+    - else, the element className will switch between class1 and class2. 
 */
-function toggleClass(domElement, class1, class2) {
-    domElement.classList.toggle(class1);
-    if(class2 != undefined) {
-        domElement.classList.toggle(class2);
-    }
+function toggleClass(domElement, className) {
+    domElement.classList.toggle(className);
 }
 /*
     You can add the function by using this function and pass an elt on this first param, and class1, opt[class2] like for the function

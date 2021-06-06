@@ -11,7 +11,6 @@
         - tout les scripts seront chargés avant de commencer leur execution, et contourne le probleme d'interpendance 
 */
 
-
 /*
     For load the scripts, 
         - started by call the function loadScript with the first script src

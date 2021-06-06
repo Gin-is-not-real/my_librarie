@@ -1,0 +1,6 @@
+///////////////////////////////////////
+//JAVASCRIPT
+
+scriptLoader.js
+    - a script for skirt the synchronicities problem in case of interdependants scripts. All the scripts will benn loaded before their execution
+    - on html, only call this script, and edit them for add the list of your scripts

@@ -1,0 +1,4 @@
+$ git checkout -b new_branche
+    =
+$ git branch new_branche
+$ git checkout new_branche
